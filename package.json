@@ -1,0 +1,24 @@
+{
+  "id": "Sentry",
+  "name": "Sentry",
+  "version": "1.0.0",
+  "description": "Sentry",
+  "main": "index.js",
+  "author": "Takashi Kakizoe <takashikakizoe.1109@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://sentry.io/auth/login/",
+    "serviceName": "Sentry",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
